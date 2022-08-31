@@ -1,6 +1,6 @@
 import {Router} from 'express'
-import createPlates from '../controllers/createPlates.controller'
-import listPlates from '../controllers/listPlates.controller'
+import createPlates from '../controllers/plates/createPlates.controller'
+import listPlates from '../controllers/plates/listPlates.controller'
 
 const platesRouter = Router()
 
