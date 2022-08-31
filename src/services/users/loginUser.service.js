@@ -1,4 +1,4 @@
-import users from "./../../database"
+import users from "./../../database/users/database"
 import  jwt  from "jsonwebtoken"
 import * as bcrypt from 'bcryptjs/dist/bcrypt'
 
