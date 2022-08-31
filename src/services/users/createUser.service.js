@@ -1,5 +1,6 @@
 import users from "./../../database/users/database"
 import {v4 as uuidv4} from 'uuid'
+import * as bcrypt from 'bcryptjs'
 
 const createUserService = (name, email, password) => {
 
