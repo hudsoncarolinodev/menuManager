@@ -1,4 +1,4 @@
-import createPlatesService from '../services/plates/createPlates.services'
+import createPlatesService from '../../services/plates/createPlates.service'
 
 export default function createPlates(req, res){
      
